@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <title>Вхід</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <form action="/register" method="post">
+                <label for="name">Ім'я:</label>
+                <input type="text" name="name" id="name" required autocomplete="given-name">
+
+                <label for="familyname">Прізвище:</label>
+                <input type="text" name="familyname" id="familyname" required autocomplete="family-name">
+
+                <br>
+
+                <label for="callphone">Номер тел.:</label>
+                <input type="tel" name="callphone" id="callphone" required autocomplete="tel">
+
+                <br>
+
+                <label for="email">Електр. пошта:</label>
+                <input type="email" name="email" id="email" required autocomplete="email">
+
+                <br>
+
+                <label for="mom_name">Ім'я мами:</label>
+                <input type="text" name="mom_name" id="mom_name" required autocomplete="off">
+
+                <br>
+
+                <label for="mom_family_name">Дівоче прізвище мами:</label>
+                <input type="text" name="mom_family_name" id="mom_family_name" required autocomplete="off">
+
+                <br>
+
+                <label for="first_pet">Ім'я першого домашнього улюбленця:</label>
+                <input type="text" name="first_pet" id="first_pet" required autocomplete="off">
+                
+                <br>
+                <br>
+                <div class="button-form">
+                    <button type="submit">Заєструватися</button>
+                </div>
+
+                
+
+            </form>
+        </main>
+    </body>
+</html>

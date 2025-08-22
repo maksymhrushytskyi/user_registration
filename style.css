@@ -1,0 +1,28 @@
+input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    /* width: 100%;  <-- видаліть або закоментуйте цей рядок */
+}
+
+input:focus,
+input:hover {
+    outline: none;
+    box-shadow: none;
+    background-color: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Центрування по вертикалі */
+}
+.button-form {
+    display: flex;
+    justify-content: center;t: center;
+    align-items: center;    align-items: center;
+    width: 100%;
+}
